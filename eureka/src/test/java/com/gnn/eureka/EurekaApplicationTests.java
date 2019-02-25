@@ -1,4 +1,4 @@
-package com.gnn.advertisement;
+package com.gnn.eureka;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class AdvertisementApplicationTests {
+public class EurekaApplicationTests {
 
     @Test
     public void contextLoads() {
