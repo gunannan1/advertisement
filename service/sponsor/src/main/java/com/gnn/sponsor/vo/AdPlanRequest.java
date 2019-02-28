@@ -17,6 +17,7 @@ public class AdPlanRequest {
     private String startDate;
     private String endDate;
 
+    //创建时，四个属性都不能为空
     public boolean createValidate() {
 
         return userId != null
@@ -25,11 +26,13 @@ public class AdPlanRequest {
                 && !StringUtils.isEmpty(endDate);
     }
 
+    //更新时，id和用户id不能为空
     public boolean updateValidate() {
 
         return id != null && userId != null;
     }
 
+    //更新时，id和用户id不能为空
     public boolean deleteValidate() {
 
         return id != null && userId != null;

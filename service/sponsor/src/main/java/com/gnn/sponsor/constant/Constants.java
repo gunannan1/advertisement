@@ -1,7 +1,7 @@
 package com.gnn.sponsor.constant;
 
 /**
- *
+ *错误信息
  */
 public class Constants {
 

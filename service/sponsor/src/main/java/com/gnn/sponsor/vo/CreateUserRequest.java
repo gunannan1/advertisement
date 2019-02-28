@@ -13,6 +13,7 @@ public class CreateUserRequest {
 
     private String username;
 
+    //用户名为空时请求参数错误
     public boolean validate() {
 
         return !StringUtils.isEmpty(username);
